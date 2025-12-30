@@ -11,10 +11,10 @@ class mash {
         mash obj = new mash();
        Scanner scan = new Scanner(System.in); 
        System.out.println("Enter the number: ");
-        int a = scan.nextInt();
-        int b = scan.nextInt();
+        int c = scan.nextInt();
+        int d = scan.nextInt();
 
-        int mm = obj.sum(a, b);
+        int mm = obj.sum(c, d);
         System.out.println("The result is "+ mm);
         scan.close();
 
